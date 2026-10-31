@@ -1,0 +1,6 @@
+{
+  "name": "OmniLens AI Flashcards",
+  "description": "AI-powered camera flashcard generator with verified accuracy, automated deck organization, and smart spaced repetition.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

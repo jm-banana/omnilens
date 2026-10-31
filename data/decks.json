@@ -1,0 +1,300 @@
+[
+  {
+    "id": "deck-1793168550253-ngn10",
+    "title": "CH-302: Carbonyl Reactions & Mechanisms",
+    "description": "This deck covers fundamental principles of carbonyl addition reactions, including the electrophilic nature of carbonyl carbons, the formation of tetrahedral intermediates, Grignard reagent reactions, and acid-catalyzed hydration processes.",
+    "subject": "Organic Chemistry",
+    "createdAt": "2026-10-28T06:22:30.253Z",
+    "updatedAt": "2026-10-28T06:23:15.684Z",
+    "tags": [
+      "Organic Chemistry",
+      "OmniLens Scan"
+    ],
+    "scanImageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNDIwIiB2aWV3Qm94PSIwIDAgNjAwIDQyMCI+CiAgICA8ZGVmcz4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJwYXBlckdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmOGZhZmMiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxyZWN0IHdpZHRoPSI2MDAiIGhlaWdodD0iNDIwIiBmaWxsPSJ1cmwoI3BhcGVyR3JhZCkiIHJ4PSIxMiIgc3Ryb2tlPSIjY2JkNWUxIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDxsaW5lIHgxPSIwIiB5MT0iNDAiIHgyPSI2MDAiIHkyPSI0MCIgc3Ryb2tlPSIjMDU5NjY5IiBzdHJva2Utd2lkdGg9IjQiLz4KICAgIDx0ZXh0IHg9IjQwIiB5PSI4NSIgZmlsbD0iIzBmMTcyYSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjI0Ij5DSC0zMDI6IENhcmJvbnlsIFJlYWN0aW9ucyAmYW1wOyBNZWNoYW5pc21zPC90ZXh0PgogICAgPHRleHQgeD0iNDAiIHk9IjExNSIgZmlsbD0iIzY0NzQ4YiIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiPkxlY3R1cmUgTm90ZXMgQ2hhcHRlciA4IOKAoiBQcm9mZXNzb3IgVmFuY2Ug4oCiIFNwcmluZyBTZW1lc3RlcjwvdGV4dD4KICAgIDxsaW5lIHgxPSI0MCIgeTE9IjEzNSIgeDI9IjU2MCIgeTI9IjEzNSIgc3Ryb2tlPSIjZTJlOGYwIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDxyZWN0IHg9IjQwIiB5PSIxNDUiIHdpZHRoPSI1MjAiIGhlaWdodD0iMiIgZmlsbD0iIzA1OTY2OSIgb3BhY2l0eT0iMC4zIi8+CiAgICA8dGV4dCB4PSI0MCIgeT0iMTkwIiBmaWxsPSIjMzM0MTU1IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiI+4oCiIENhcmJvbnlsIGNhcmJvbiBoYXMgcGFydGlhbCBwb3NpdGl2ZSBjaGFyZ2UgKGVsZWN0cm9waGlsaWMgc2l0ZSk8L3RleHQ+PHRleHQgeD0iNDAiIHk9IjIyNiIgZmlsbD0iIzMzNDE1NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTYiPuKAoiBOdWNsZW9waGlsZSBhdHRhY2tzIHNwMiBjYXJib24gZm9ybWluZyB0ZXRyYWhlZHJhbCBpbnRlcm1lZGlhdGUgKHNwMyk8L3RleHQ+PHRleHQgeD0iNDAiIHk9IjI2MiIgZmlsbD0iIzMzNDE1NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTYiPuKAoiBHcmlnbmFyZCBSZWFnZW50cyAoUi1NZ1gpIGFkZCBhbGt5bCBncm91cHMgdG8gYWxkZWh5ZGVzIHRvIHlpZWxkIDLCsCBhbGNvaG9sczwvdGV4dD48dGV4dCB4PSI0MCIgeT0iMjk4IiBmaWxsPSIjMzM0MTU1IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiI+4oCiIEFjaWQtY2F0YWx5emVkIGh5ZHJhdGlvbiBmb3JtcyBnZW1pbmFsIGRpb2xzIHJldmVyc2libHk8L3RleHQ+CiAgICA8cmVjdCB4PSI0MCIgeT0iMzEwIiB3aWR0aD0iNTIwIiBoZWlnaHQ9Ijc1IiBmaWxsPSIjZjFmNWY5IiByeD0iOCIgc3Ryb2tlPSIjZTJlOGYwIi8+CiAgICA8dGV4dCB4PSI2MCIgeT0iMzQwIiBmaWxsPSIjNDc1NTY5IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZm9udC13ZWlnaHQ9ImJvbGQiPktFWSBGT0NVUyAvIEZPUk1VTEEgLyBESUFHUkFNOjwvdGV4dD4KICAgIDx0ZXh0IHg9IjYwIiB5PSIzNjUiIGZpbGw9IiMwNTk2NjkiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjE1Ij5SLUNITyArIFImYXBvczstTWdCciAtJmd0OyBbUi1DSChPLU1nQnIpLVImYXBvcztdIC0tKEgzTyspLS0mZ3Q7IFItQ0goT0gpLVImYXBvczs8L3RleHQ+CiAgPC9zdmc+",
+    "cards": [
+      {
+        "front": "What is the primary electronic characteristic of a carbonyl carbon?",
+        "back": "The carbonyl carbon possesses a partial positive charge, making it an electrophilic site prone to nucleophilic attack.",
+        "category": "Definitions",
+        "difficulty": "Easy",
+        "accuracyRating": 100,
+        "sourceEvidence": "Carbonyl carbon has partial positive charge (electrophilic site)",
+        "id": "chem-c1",
+        "verifiedFactCheck": "Carbonyl groups are polarized due to the electronegativity of oxygen, creating a delta-positive carbon center.",
+        "repetitions": 1,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-10-29T06:23:15.684Z",
+        "isVerified": true,
+        "lastReviewed": "2026-10-28T06:23:15.684Z",
+        "history": [
+          {
+            "date": "2026-10-28T06:23:15.684Z",
+            "rating": "good"
+          }
+        ]
+      },
+      {
+        "front": "Describe the hybridization change during nucleophilic attack on a carbonyl carbon.",
+        "back": "The carbon atom transitions from sp2 hybridization (trigonal planar) to sp3 hybridization (tetrahedral intermediate).",
+        "category": "Mechanisms",
+        "difficulty": "Medium",
+        "accuracyRating": 100,
+        "sourceEvidence": "Nucleophile attacks sp2 carbon forming tetrahedral intermediate (sp3)",
+        "id": "chem-c2",
+        "mnemonic": "2-3-Tetra: sp2 to sp3 in a Tetrahedron.",
+        "verifiedFactCheck": "Standard mechanism for nucleophilic acyl addition where nucleophile geometry shifts to accommodate bonding.",
+        "repetitions": 0,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-10-28T06:22:30.253Z",
+        "isVerified": true
+      },
+      {
+        "front": "What is the general product of a reaction between an aldehyde and a Grignard reagent?",
+        "back": "The reaction produces a secondary alcohol (after acidic workup).",
+        "category": "Reactions",
+        "difficulty": "Medium",
+        "accuracyRating": 100,
+        "sourceEvidence": "Grignard Reagents (R-MgX) add alkyl groups to aldehydes to yield 2° alcohols",
+        "id": "chem-c3",
+        "keyFormulaOrTerm": "R-CHO + R'-MgBr",
+        "verifiedFactCheck": "Grignard reagents are strong nucleophiles that add to carbonyls; formal dehydration/workup leads to secondary alcohols.",
+        "repetitions": 0,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-10-28T06:22:30.253Z",
+        "isVerified": true
+      },
+      {
+        "front": "What is the product of acid-catalyzed hydration of a carbonyl?",
+        "back": "Acid-catalyzed hydration forms geminal diols (also known as hydrates).",
+        "category": "Reactions",
+        "difficulty": "Medium",
+        "accuracyRating": 100,
+        "sourceEvidence": "Acid-catalyzed hydration forms geminal diols reversibly",
+        "id": "chem-c4",
+        "verifiedFactCheck": "Hydration of aldehydes/ketones in acid creates a species with two hydroxyl groups on the same carbon (gem-diol).",
+        "repetitions": 0,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-10-28T06:22:30.254Z",
+        "isVerified": true
+      },
+      {
+        "front": "What is the standard workup step following the addition of a Grignard reagent to a carbonyl?",
+        "back": "The intermediate is treated with H3O+ (acidic workup) to protonate the alkoxide and produce the final alcohol.",
+        "category": "Mechanisms",
+        "difficulty": "Hard",
+        "accuracyRating": 100,
+        "sourceEvidence": "[R-CH(O-MgBr)-R'] --(H3O+)--> R-CH(OH)-R'",
+        "id": "chem-c5",
+        "keyFormulaOrTerm": "H3O+ Workup",
+        "verifiedFactCheck": "Grignard additions require a proton source (acidic workup) to convert the resulting magnesium alkoxide to the alcohol.",
+        "repetitions": 0,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-10-28T06:22:30.254Z",
+        "isVerified": true
+      }
+    ]
+  },
+  {
+    "id": "deck-cardio-1",
+    "title": "Cardiovascular Physiology & Hemodynamics",
+    "description": "Detailed flashcards generated from Module 4 lecture notes covering the cardiac cycle, pressures, and volumes.",
+    "subject": "Biology & Medicine",
+    "createdAt": "2026-10-25T14:30:00Z",
+    "updatedAt": "2026-10-27T18:15:00Z",
+    "tags": [
+      "Physiology",
+      "Medicine",
+      "Cardiology",
+      "Exam Prep"
+    ],
+    "cards": [
+      {
+        "id": "c-cardio-1",
+        "front": "What mechanical event defines the isovolumetric ventricular contraction phase?",
+        "back": "Both the atrioventricular (mitral/tricuspid) and semilunar (aortic/pulmonary) valves are closed, causing ventricular pressure to rise rapidly with no change in ventricular volume.",
+        "keyFormulaOrTerm": "Isovolumetric Contraction",
+        "mnemonic": "ISO = same, VOLUME = size. Doors locked, pressure rocks!",
+        "category": "Cardiac Cycle",
+        "difficulty": "Medium",
+        "accuracyRating": 99,
+        "sourceEvidence": "Scanned Note: \"AV and semilunar valves both closed; ventricular pressure rises steeply.\"",
+        "verifiedFactCheck": "Verified against Guyton & Hall Textbook of Medical Physiology (14th Ed., Chapter 9).",
+        "isVerified": true,
+        "repetitions": 2,
+        "interval": 3,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-10-28T05:11:52.585Z",
+        "lastReviewed": "2026-10-24T10:00:00Z"
+      },
+      {
+        "id": "c-cardio-2",
+        "front": "How is Cardiac Output (CO) mathematically determined from Stroke Volume and Heart Rate?",
+        "back": "CO = Heart Rate (HR, bpm) × Stroke Volume (SV, mL/beat). Typical resting output is ~5 L/min in a healthy adult.",
+        "keyFormulaOrTerm": "CO = HR × SV",
+        "category": "Hemodynamics",
+        "difficulty": "Easy",
+        "accuracyRating": 100,
+        "sourceEvidence": "Scanned Formula Box: \"CO = Heart Rate x Stroke Volume | EF = (SV / EDV) * 100%\"",
+        "verifiedFactCheck": "100% textbook canon in human cardiovascular physiology.",
+        "isVerified": true,
+        "repetitions": 3,
+        "interval": 8,
+        "easeFactor": 2.6,
+        "nextReviewDate": "2026-10-30T06:11:52.586Z",
+        "lastReviewed": "2026-10-25T11:00:00Z"
+      },
+      {
+        "id": "c-cardio-3",
+        "front": "State the Frank-Starling Law of the heart and its physiological significance.",
+        "back": "The force of cardiac contraction is directly proportional to the initial muscle fiber length (end-diastolic volume/preload). Increased preload leads to increased stroke volume, ensuring output matches venous return.",
+        "keyFormulaOrTerm": "Frank-Starling Relationship",
+        "mnemonic": "Starling Stretches -> Heart Snaps stronger!",
+        "category": "Physiology Mechanisms",
+        "difficulty": "Hard",
+        "accuracyRating": 98,
+        "sourceEvidence": "Scanned Note: \"Increased preload leads to increased stroke volume\"",
+        "verifiedFactCheck": "Grounded in actin-myosin filament overlap optimization within sarcomeres up to physiological limits.",
+        "isVerified": true,
+        "repetitions": 1,
+        "interval": 1,
+        "easeFactor": 2.4,
+        "nextReviewDate": "2026-10-28T04:11:52.586Z",
+        "lastReviewed": "2026-10-26T09:00:00Z"
+      },
+      {
+        "id": "c-cardio-4",
+        "front": "What is the formula for Ejection Fraction (EF) and what is considered normal?",
+        "back": "EF = (Stroke Volume / End-Diastolic Volume) × 100%. A normal resting value is between 55% and 70%. Below 40% indicates systolic heart failure.",
+        "keyFormulaOrTerm": "EF = (SV / EDV) × 100%",
+        "category": "Diagnostics",
+        "difficulty": "Medium",
+        "accuracyRating": 98,
+        "sourceEvidence": "Scanned Diagram bottom equation: \"EF = (SV / EDV) x 100%\"",
+        "verifiedFactCheck": "Corresponds with American College of Cardiology (ACC/AHA) diagnostic criteria.",
+        "isVerified": true,
+        "repetitions": 0,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-10-28T06:11:51.586Z"
+      }
+    ]
+  },
+  {
+    "id": "deck-chem-1",
+    "title": "Organic Chemistry: Carbonyl Addition Mechanisms",
+    "description": "Reaction pathways, electrophilic carbonyl reactivity, Grignard additions, and hydrate equilibria.",
+    "subject": "Chemistry",
+    "createdAt": "2026-10-26T16:00:00Z",
+    "updatedAt": "2026-10-27T20:00:00Z",
+    "tags": [
+      "Organic Chemistry",
+      "Carbonyls",
+      "Reaction Mechanisms"
+    ],
+    "cards": [
+      {
+        "id": "c-chem-1",
+        "front": "Why is the carbonyl carbon strongly electrophilic compared to alkene carbons?",
+        "back": "The high electronegativity difference between carbon (2.5) and oxygen (3.5) polarizes the C=O double bond, placing a significant partial positive charge (δ+) on the carbonyl carbon.",
+        "keyFormulaOrTerm": "Carbonyl Polarization (δ+ C = O δ-)",
+        "category": "Reactivity Principles",
+        "difficulty": "Easy",
+        "accuracyRating": 100,
+        "sourceEvidence": "Scanned Note: \"Carbonyl carbon has partial positive charge (electrophilic site)\"",
+        "verifiedFactCheck": "Direct resonance contributor: C=O <-> C(+)-O(-). Solid organic chemistry canon.",
+        "isVerified": true,
+        "repetitions": 2,
+        "interval": 3,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-10-28T06:11:02.586Z"
+      },
+      {
+        "id": "c-chem-2",
+        "front": "What product is formed when an aldehyde is treated with a Grignard reagent (R-MgX) followed by aqueous acid workup?",
+        "back": "A secondary (2°) alcohol is formed. (Formaldehyde yields a 1° alcohol; ketones yield a 3° alcohol).",
+        "keyFormulaOrTerm": "R-CHO + R'-MgX -> 2° Alcohol",
+        "mnemonic": "Formaldehyde = 1°, Aldehyde = 2°, Ketone = 3°",
+        "category": "Grignard Additions",
+        "difficulty": "Medium",
+        "accuracyRating": 99,
+        "sourceEvidence": "Scanned Formula: \"R-CHO + R'-MgBr -> [intermediate] --(H3O+)--> R-CH(OH)-R'\"",
+        "verifiedFactCheck": "Nucleophilic carbanion equivalent attack followed by hydronium protonation.",
+        "isVerified": true,
+        "repetitions": 1,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-10-29T06:11:52.586Z"
+      },
+      {
+        "id": "c-chem-3",
+        "front": "What geometry change occurs at the carbonyl carbon upon nucleophilic attack?",
+        "back": "The carbon changes from sp² hybridized trigonal planar (120° bond angles) to sp³ hybridized tetrahedral intermediate (~109.5° bond angles).",
+        "keyFormulaOrTerm": "sp² (trigonal planar) -> sp³ (tetrahedral)",
+        "category": "Sterics & Geometry",
+        "difficulty": "Medium",
+        "accuracyRating": 97,
+        "sourceEvidence": "Scanned Note: \"Nucleophile attacks sp2 carbon forming tetrahedral intermediate (sp3)\"",
+        "verifiedFactCheck": "Standard Bürgi-Dunitz angle trajectory (~107°) leading to sp3 intermediate.",
+        "isVerified": true,
+        "repetitions": 0,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-10-28T06:11:51.586Z"
+      }
+    ]
+  },
+  {
+    "id": "deck-calc-1",
+    "title": "Calculus: Fundamental Theorems & Series",
+    "description": "Calculus theorems, derivative-integral relationships, integration techniques, and convergence tests.",
+    "subject": "Mathematics",
+    "createdAt": "2026-10-27T08:00:00Z",
+    "updatedAt": "2026-10-27T19:30:00Z",
+    "tags": [
+      "Calculus",
+      "STEM",
+      "Formulas",
+      "Theorems"
+    ],
+    "cards": [
+      {
+        "id": "c-calc-1",
+        "front": "What is the Fundamental Theorem of Calculus (Part 1)?",
+        "back": "If f is continuous on [a, b], then the function g(x) = ∫ₐˣ f(t) dt is continuous on [a, b], differentiable on (a, b), and g'(x) = f(x).",
+        "keyFormulaOrTerm": "d/dx [ ∫ₐˣ f(t) dt ] = f(x)",
+        "category": "Theorems",
+        "difficulty": "Medium",
+        "accuracyRating": 100,
+        "sourceEvidence": "Scanned Note: \"FTC 1: d/dx [integral from a to x of f(t) dt] = f(x)\"",
+        "verifiedFactCheck": "Rigorous statement per Stewart Calculus 9th Edition.",
+        "isVerified": true,
+        "repetitions": 3,
+        "interval": 7,
+        "easeFactor": 2.6,
+        "nextReviewDate": "2026-10-31T06:11:52.586Z"
+      },
+      {
+        "id": "c-calc-2",
+        "front": "State the Integration by Parts formula and its origin.",
+        "back": "∫ u dv = u·v - ∫ v du. It is derived directly from the Product Rule for differentiation: d/dx [u·v] = u'·v + u·v'.",
+        "keyFormulaOrTerm": "∫ u dv = uv - ∫ v du",
+        "mnemonic": "Ultra Violet VooDoo (u·v - ∫ v du)",
+        "category": "Integration Techniques",
+        "difficulty": "Easy",
+        "accuracyRating": 100,
+        "sourceEvidence": "Scanned Box: \"int(u dv) = uv - int(v du)\"",
+        "verifiedFactCheck": "Direct mathematical identity.",
+        "isVerified": true,
+        "repetitions": 2,
+        "interval": 3,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-10-28T06:11:51.586Z"
+      }
+    ]
+  }
+]

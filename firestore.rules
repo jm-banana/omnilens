@@ -1,0 +1,65 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default-deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Hardened validation primitives
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    // Deck validation helper
+    function isValidDeck(data) {
+      return data.keys().hasAll(['id', 'title', 'subject']) &&
+             data.id is string && isValidId(data.id) &&
+             data.title is string && data.title.size() > 0 && data.title.size() <= 200 &&
+             data.subject is string && data.subject.size() > 0 && data.subject.size() <= 100;
+    }
+
+    // Flashcard validation helper
+    function isValidCard(data) {
+      return data.keys().hasAll(['id', 'front', 'back', 'category']) &&
+             data.id is string && isValidId(data.id) &&
+             data.front is string && data.front.size() > 0 && data.front.size() <= 1000 &&
+             data.back is string && data.back.size() > 0 && data.back.size() <= 3000 &&
+             data.category is string && data.category.size() <= 100;
+    }
+
+    // Decks collection
+    match /decks/{deckId} {
+      allow read: if true; // Public study access or owner access
+      allow create: if isValidId(deckId) && isValidDeck(incoming());
+      allow update: if isValidId(deckId) && isValidDeck(incoming());
+      allow delete: if isValidId(deckId);
+
+      // Flashcards subcollection
+      match /cards/{cardId} {
+        allow read: if true;
+        allow create: if isValidId(deckId) && isValidId(cardId) && isValidCard(incoming());
+        allow update: if isValidId(deckId) && isValidId(cardId) && isValidCard(incoming());
+        allow delete: if isValidId(deckId) && isValidId(cardId);
+      }
+    }
+
+    // Connection test document
+    match /test/connection {
+      allow read: if true;
+    }
+  }
+}

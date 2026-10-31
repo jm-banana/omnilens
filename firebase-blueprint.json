@@ -1,0 +1,139 @@
+{
+  "entities": {
+    "deck": {
+      "title": "Deck",
+      "description": "A collection of flashcards synthesized from AI camera scans or created by the user.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique deck identifier."
+        },
+        "title": {
+          "type": "string",
+          "description": "Title of the study deck.",
+          "maxLength": 150
+        },
+        "description": {
+          "type": "string",
+          "description": "Summary or description of the deck content.",
+          "maxLength": 1000
+        },
+        "subject": {
+          "type": "string",
+          "description": "Subject or academic field.",
+          "maxLength": 100
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when deck was created."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when deck was last updated."
+        },
+        "tags": {
+          "type": "array",
+          "description": "Subject and category tags."
+        },
+        "ownerId": {
+          "type": "string",
+          "description": "User ID of the creator (or public)."
+        },
+        "scanImageUrl": {
+          "type": "string",
+          "description": "Optional preview image URL or data thumbnail."
+        }
+      },
+      "required": ["id", "title", "subject", "createdAt"]
+    },
+    "flashcard": {
+      "title": "Flashcard",
+      "description": "An individual flashcard with question, verified answer, SRS metadata, and accuracy rating.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique flashcard identifier."
+        },
+        "deckId": {
+          "type": "string",
+          "description": "Reference to parent deck ID."
+        },
+        "front": {
+          "type": "string",
+          "description": "Front prompt or question.",
+          "maxLength": 500
+        },
+        "back": {
+          "type": "string",
+          "description": "Verified answer or solution.",
+          "maxLength": 2000
+        },
+        "keyFormulaOrTerm": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "mnemonic": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "category": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["Easy", "Medium", "Hard"]
+        },
+        "accuracyRating": {
+          "type": "number",
+          "description": "Fidelity confidence score (0-100)."
+        },
+        "sourceEvidence": {
+          "type": "string",
+          "description": "Direct quote from scanned note or diagram.",
+          "maxLength": 1000
+        },
+        "verifiedFactCheck": {
+          "type": "string",
+          "description": "Canon verification note.",
+          "maxLength": 1000
+        },
+        "isVerified": {
+          "type": "boolean"
+        },
+        "repetitions": {
+          "type": "number"
+        },
+        "interval": {
+          "type": "number"
+        },
+        "easeFactor": {
+          "type": "number"
+        },
+        "nextReviewDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "lastReviewed": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["id", "front", "back", "category", "difficulty"]
+    }
+  },
+  "firestore": {
+    "/decks/{deckId}": {
+      "schema": "deck",
+      "description": "Top-level collection storing study decks."
+    },
+    "/decks/{deckId}/cards/{cardId}": {
+      "schema": "flashcard",
+      "description": "Subcollection storing flashcards for a specific deck."
+    }
+  }
+}
