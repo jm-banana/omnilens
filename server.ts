@@ -56,7 +56,7 @@ let inMemoryDecks: Deck[] = loadDecks();
 // Initialize Google GenAI client (server-side only)
 const apiKey = process.env.GEMINI_API_KEY || '';
 const ai = new GoogleGenAI({
-  apiKey: 'gen-lang-client-0498438050',
+  apiKey,
   httpOptions: {
     headers: {
       'User-Agent': 'aistudio-build',
